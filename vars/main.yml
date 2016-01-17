@@ -1,0 +1,7 @@
+---
+crontab:
+    crontab name:
+        user: root
+        state: present
+        job: 2>/dev/null 1>&2 php /my_crontab.php
+        minute: '*/5'
